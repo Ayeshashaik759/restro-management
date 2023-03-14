@@ -22,7 +22,9 @@ export default {
 }
 
 .register input,
-.login input {
+.login input,
+.add input,
+.update input {
   width: 300px;
   height: 40px;
   padding-left: 20px;
@@ -34,12 +36,14 @@ export default {
 }
 
 .register button,
-.login button {
+.login button,
+.add button,
+.update button {
   width: 320px;
   height: 40px;
   border: 1px solid #7f005f;
   color: #fff;
-  background-color: #ffd044;
+  background-color: #ffc004;
   cursor: pointer;
 }
 </style>
